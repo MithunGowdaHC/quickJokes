@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width"> <!-- to enable responsiveness to the code-->
+ <link href="style.css" rel="stylesheet" type="text/css" />  <!-- linking the css file-->
+  <title>QUICK JOKE</title> <!--adding title to the page -->
+  <link rel="website icon" type="png" href="https://cdn-icons-png.flaticon.com/128/1791/1791320.png">    
+
+   <link rel="preconnect" href="https://fonts.googleapis.com"> <!--including few of the font styles into the html fot styling-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&amp;family=Inconsolata:wght@500&amp;family=Patrick+Hand+SC&amp;display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+
+  <div class="container">
+    <div class="header"> Random Joke Generator </div>
+    <div class="intro">  <b>"Smiles are free, so let's make them priceless"</b>  </div>
+    <textarea rows="5" cols="50" readonly> Joke displayed here </textarea> <!--creates a text area which is 5 blocks long and 50 blocks in width -->
+    <div class="intro"> Click and Smile: Let's Brighten Your Day! </div>
+    <button class="btn" id="btn" onclick="generate()"> <!--calls the function generate() when clicked-->
+      <p>Generate Joke</p>
+    </button>
+  </div>
+  <div class="footer intro">
+    &copy; Copyright © Darshan SP 2023. All Rights Reserved. No rights are violated
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
